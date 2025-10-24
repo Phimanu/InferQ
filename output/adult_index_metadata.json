@@ -1,0 +1,29 @@
+{
+  "data_path": "example_data/adult.csv",
+  "n_samples": 32561,
+  "n_features_total": 6,
+  "n_features_selected": 4,
+  "selected_features": [
+    "age",
+    "fnlwgt",
+    "hours-per-week",
+    "education-num"
+  ],
+  "total_bins": 60,
+  "budget": 60,
+  "budget_utilization": 1.0,
+  "model_type": "RandomForest",
+  "n_estimators": 100,
+  "max_depth": 20,
+  "test_r2": 0.980780841037567,
+  "test_mse": 0.08593605903303203,
+  "metric_names": [
+    "completeness",
+    "outlier_rate",
+    "duplicate_rate",
+    "distribution_skewness",
+    "distribution_kurtosis",
+    "overall_quality"
+  ],
+  "build_time": 4.046493291854858
+}

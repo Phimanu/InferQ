@@ -1,0 +1,652 @@
+{
+  "exp1_accuracy": [
+    {
+      "dataset": "adult",
+      "n_samples": 2000,
+      "n_features": 6,
+      "n_bins": 50,
+      "r2_overall": 0.8978830630671136,
+      "mae_overall": 0.008552462240664558,
+      "mse_overall": 0.0006621052251754601,
+      "build_time": 2.0241057872772217,
+      "pred_time": 0.03910231590270996,
+      "gt_time": 0.3490169048309326,
+      "speedup": 8.925734877169877
+    },
+    {
+      "dataset": "cardio",
+      "n_samples": 2000,
+      "n_features": 12,
+      "n_bins": 43,
+      "r2_overall": 0.6540385131146459,
+      "mae_overall": 0.010945952889648747,
+      "mse_overall": 0.0005733094170470834,
+      "build_time": 2.6758577823638916,
+      "pred_time": 0.039079904556274414,
+      "gt_time": 0.5057516098022461,
+      "speedup": 12.941475050789139
+    },
+    {
+      "dataset": "flight-price",
+      "n_samples": 2000,
+      "n_features": 3,
+      "n_bins": 34,
+      "r2_overall": 0.9273698263282273,
+      "mae_overall": 0.005561877588004156,
+      "mse_overall": 0.0005805584100398235,
+      "build_time": 1.902982234954834,
+      "pred_time": 0.03706479072570801,
+      "gt_time": 0.38796305656433105,
+      "speedup": 10.467158965914281
+    }
+  ],
+  "exp1_per_metric": {
+    "adult": {
+      "row_completeness": 1.0,
+      "row_range_conformance": 0.8430768657125494,
+      "row_consistency": 0.8505723234887917
+    },
+    "cardio": {
+      "row_completeness": 1.0,
+      "row_range_conformance": 0.5757660668926061,
+      "row_consistency": 0.3863494724513321
+    },
+    "flight-price": {
+      "row_completeness": 1.0,
+      "row_range_conformance": 0.881844281830469,
+      "row_consistency": 0.9002651971542132
+    }
+  },
+  "exp5_mtqd": [
+    {
+      "dataset": "adult",
+      "attribute": "age",
+      "method": "Equal-Freq (No Merge)",
+      "n_bins": 30,
+      "homogeneity": 3.7229735991369606e-34,
+      "separation": 0.00010378047022520029
+    },
+    {
+      "dataset": "adult",
+      "attribute": "age",
+      "method": "MTQD (Adaptive)",
+      "n_bins": 10,
+      "homogeneity": 3.3642432617425026e-34,
+      "separation": 0.0002457383580054609
+    },
+    {
+      "dataset": "adult",
+      "attribute": "age",
+      "method": "MTQD (Aggressive)",
+      "n_bins": 1,
+      "homogeneity": 2.5687628467985806e-34,
+      "separation": 0.0
+    },
+    {
+      "dataset": "adult",
+      "attribute": "fnlwgt",
+      "method": "Equal-Freq (No Merge)",
+      "n_bins": 30,
+      "homogeneity": 1.2450491496548456e-33,
+      "separation": 7.901165780514975e-06
+    },
+    {
+      "dataset": "adult",
+      "attribute": "fnlwgt",
+      "method": "MTQD (Adaptive)",
+      "n_bins": 5,
+      "homogeneity": 6.176936913001448e-34,
+      "separation": 0.0001211903041818173
+    },
+    {
+      "dataset": "adult",
+      "attribute": "fnlwgt",
+      "method": "MTQD (Aggressive)",
+      "n_bins": 1,
+      "homogeneity": 2.5687628467985806e-34,
+      "separation": 0.0
+    },
+    {
+      "dataset": "adult",
+      "attribute": "education-num",
+      "method": "Equal-Freq (No Merge)",
+      "n_bins": 11,
+      "homogeneity": 3.759598065801399e-34,
+      "separation": 0.00013011199292792635
+    },
+    {
+      "dataset": "adult",
+      "attribute": "education-num",
+      "method": "MTQD (Adaptive)",
+      "n_bins": 5,
+      "homogeneity": 3.094894058716228e-34,
+      "separation": 0.00023877087159385708
+    },
+    {
+      "dataset": "adult",
+      "attribute": "education-num",
+      "method": "MTQD (Aggressive)",
+      "n_bins": 1,
+      "homogeneity": 2.5687628467985806e-34,
+      "separation": 0.0
+    },
+    {
+      "dataset": "cardio",
+      "attribute": "Age",
+      "method": "Equal-Freq (No Merge)",
+      "n_bins": 30,
+      "homogeneity": 2.2479585737960553e-34,
+      "separation": 5.042554821136288e-07
+    },
+    {
+      "dataset": "cardio",
+      "attribute": "Age",
+      "method": "MTQD (Adaptive)",
+      "n_bins": 1,
+      "homogeneity": 6.421907116996451e-35,
+      "separation": 0.0
+    },
+    {
+      "dataset": "cardio",
+      "attribute": "Age",
+      "method": "MTQD (Aggressive)",
+      "n_bins": 1,
+      "homogeneity": 6.421907116996451e-35,
+      "separation": 0.0
+    },
+    {
+      "dataset": "cardio",
+      "attribute": "Gender",
+      "method": "Equal-Freq (No Merge)",
+      "n_bins": 1,
+      "homogeneity": 6.421907116996451e-35,
+      "separation": 0.0
+    },
+    {
+      "dataset": "cardio",
+      "attribute": "Gender",
+      "method": "MTQD (Adaptive)",
+      "n_bins": 1,
+      "homogeneity": 6.421907116996451e-35,
+      "separation": 0.0
+    },
+    {
+      "dataset": "cardio",
+      "attribute": "Gender",
+      "method": "MTQD (Aggressive)",
+      "n_bins": 1,
+      "homogeneity": 6.421907116996451e-35,
+      "separation": 0.0
+    },
+    {
+      "dataset": "cardio",
+      "attribute": "Height",
+      "method": "Equal-Freq (No Merge)",
+      "n_bins": 24,
+      "homogeneity": 2.4831494805963236e-34,
+      "separation": 1.5064629894183053e-07
+    },
+    {
+      "dataset": "cardio",
+      "attribute": "Height",
+      "method": "MTQD (Adaptive)",
+      "n_bins": 1,
+      "homogeneity": 6.421907116996451e-35,
+      "separation": 0.0
+    },
+    {
+      "dataset": "cardio",
+      "attribute": "Height",
+      "method": "MTQD (Aggressive)",
+      "n_bins": 1,
+      "homogeneity": 6.421907116996451e-35,
+      "separation": 0.0
+    },
+    {
+      "dataset": "flight-price",
+      "attribute": "duration",
+      "method": "Equal-Freq (No Merge)",
+      "n_bins": 30,
+      "homogeneity": 7.603612477407332e-34,
+      "separation": 0.0022981520342911905
+    },
+    {
+      "dataset": "flight-price",
+      "attribute": "duration",
+      "method": "MTQD (Adaptive)",
+      "n_bins": 22,
+      "homogeneity": 1.0356522338839032e-33,
+      "separation": 0.0029356979916882625
+    },
+    {
+      "dataset": "flight-price",
+      "attribute": "duration",
+      "method": "MTQD (Aggressive)",
+      "n_bins": 8,
+      "homogeneity": 8.41077482554573e-34,
+      "separation": 0.007226792561159424
+    },
+    {
+      "dataset": "flight-price",
+      "attribute": "days_left",
+      "method": "Equal-Freq (No Merge)",
+      "n_bins": 30,
+      "homogeneity": 5.457634272592339e-34,
+      "separation": 0.00013867768100718343
+    },
+    {
+      "dataset": "flight-price",
+      "attribute": "days_left",
+      "method": "MTQD (Adaptive)",
+      "n_bins": 17,
+      "homogeneity": 6.705730122798168e-34,
+      "separation": 0.00018459939230646924
+    },
+    {
+      "dataset": "flight-price",
+      "attribute": "days_left",
+      "method": "MTQD (Aggressive)",
+      "n_bins": 1,
+      "homogeneity": 0.0,
+      "separation": 0.0
+    },
+    {
+      "dataset": "flight-price",
+      "attribute": "flight_number",
+      "method": "Equal-Freq (No Merge)",
+      "n_bins": 30,
+      "homogeneity": 7.470020245861178e-33,
+      "separation": 0.0004989794681975538
+    },
+    {
+      "dataset": "flight-price",
+      "attribute": "flight_number",
+      "method": "MTQD (Adaptive)",
+      "n_bins": 6,
+      "homogeneity": 3.4586732113298645e-33,
+      "separation": 0.0012959549763764744
+    },
+    {
+      "dataset": "flight-price",
+      "attribute": "flight_number",
+      "method": "MTQD (Aggressive)",
+      "n_bins": 3,
+      "homogeneity": 1.2386865279587675e-32,
+      "separation": 0.01002170118910249
+    }
+  ],
+  "exp2_speed": [
+    {
+      "dataset": "adult",
+      "query_size": 1,
+      "time_index": 0.028906488418579103,
+      "time_gt": 0.001929903030395508,
+      "latency_index_us": 28906.4884185791,
+      "latency_gt_us": 1929.9030303955078,
+      "speedup": 0.06676366227712041,
+      "throughput_index": 34.594309260936335,
+      "throughput_gt": 518.1607491414029
+    },
+    {
+      "dataset": "adult",
+      "query_size": 10,
+      "time_index": 0.028482627868652344,
+      "time_gt": 0.007865285873413086,
+      "latency_index_us": 2848.2627868652344,
+      "latency_gt_us": 786.5285873413086,
+      "speedup": 0.27614326563138264,
+      "throughput_index": 351.0912000857156,
+      "throughput_gt": 1271.4096042971378
+    },
+    {
+      "dataset": "adult",
+      "query_size": 100,
+      "time_index": 0.028100299835205077,
+      "time_gt": 0.04262022972106934,
+      "latency_index_us": 281.0029983520508,
+      "latency_gt_us": 426.20229721069336,
+      "speedup": 1.516717969951095,
+      "throughput_index": 3558.680889045759,
+      "throughput_gt": 2346.303636898628
+    },
+    {
+      "dataset": "adult",
+      "query_size": 1000,
+      "time_index": 0.038375234603881835,
+      "time_gt": 0.3972676595052083,
+      "latency_index_us": 38.375234603881836,
+      "latency_gt_us": 397.2676595052083,
+      "speedup": 10.352188425840211,
+      "throughput_index": 26058.47261449303,
+      "throughput_gt": 2517.194581722275
+    },
+    {
+      "dataset": "cardio",
+      "query_size": 1,
+      "time_index": 0.029312705993652342,
+      "time_gt": 0.002254962921142578,
+      "latency_index_us": 29312.705993652344,
+      "latency_gt_us": 2254.962921142578,
+      "speedup": 0.07692783196579973,
+      "throughput_index": 34.114898850230674,
+      "throughput_gt": 443.46627193909916
+    },
+    {
+      "dataset": "cardio",
+      "query_size": 10,
+      "time_index": 0.02778477668762207,
+      "time_gt": 0.011486148834228516,
+      "latency_index_us": 2778.477668762207,
+      "latency_gt_us": 1148.6148834228516,
+      "speedup": 0.413397198162313,
+      "throughput_index": 359.90931697698085,
+      "throughput_gt": 870.6138275172076
+    },
+    {
+      "dataset": "cardio",
+      "query_size": 100,
+      "time_index": 0.027562856674194336,
+      "time_gt": 0.05243773460388183,
+      "latency_index_us": 275.62856674194336,
+      "latency_gt_us": 524.3773460388182,
+      "speedup": 1.9024782236369768,
+      "throughput_index": 3628.0709645609695,
+      "throughput_gt": 1907.0236491985536
+    },
+    {
+      "dataset": "cardio",
+      "query_size": 1000,
+      "time_index": 0.039033031463623045,
+      "time_gt": 0.4947187900543213,
+      "latency_index_us": 39.03303146362305,
+      "latency_gt_us": 494.71879005432135,
+      "speedup": 12.674362495144042,
+      "throughput_index": 25619.327080243642,
+      "throughput_gt": 2021.3503511564572
+    },
+    {
+      "dataset": "flight-price",
+      "query_size": 1,
+      "time_index": 0.028815793991088866,
+      "time_gt": 0.0022234439849853514,
+      "latency_index_us": 28815.793991088867,
+      "latency_gt_us": 2223.4439849853516,
+      "speedup": 0.07716060108123135,
+      "throughput_index": 34.703190906668915,
+      "throughput_gt": 449.7527289883978
+    },
+    {
+      "dataset": "flight-price",
+      "query_size": 10,
+      "time_index": 0.028050756454467772,
+      "time_gt": 0.008812379837036134,
+      "latency_index_us": 2805.0756454467773,
+      "latency_gt_us": 881.2379837036134,
+      "speedup": 0.3141583668640261,
+      "throughput_index": 356.49662483192157,
+      "throughput_gt": 1134.767246183898
+    },
+    {
+      "dataset": "flight-price",
+      "query_size": 100,
+      "time_index": 0.029552984237670898,
+      "time_gt": 0.050904273986816406,
+      "latency_index_us": 295.529842376709,
+      "latency_gt_us": 509.04273986816406,
+      "speedup": 1.722474914121506,
+      "throughput_index": 3383.7530313615835,
+      "throughput_gt": 1964.4715888865992
+    },
+    {
+      "dataset": "flight-price",
+      "query_size": 1000,
+      "time_index": 0.03842477798461914,
+      "time_gt": 0.4708539644877116,
+      "latency_index_us": 38.42477798461914,
+      "latency_gt_us": 470.8539644877116,
+      "speedup": 12.25391503045736,
+      "throughput_index": 26024.87385614264,
+      "throughput_gt": 2123.800743799616
+    }
+  ],
+  "exp3_scalability": [
+    {
+      "dataset": "cardio",
+      "n_rows": 1000,
+      "n_features": 12,
+      "build_time": 1.6035008430480957,
+      "query_time": 0.03136134147644043,
+      "query_latency_us": 313.6134147644043,
+      "index_size_mb": 0.00174713134765625,
+      "data_size_mb": 0.09918212890625,
+      "compression_ratio": 56.76855895196506,
+      "r2": 0.5674688152481351
+    },
+    {
+      "dataset": "cardio",
+      "n_rows": 5000,
+      "n_features": 12,
+      "build_time": 5.567383289337158,
+      "query_time": 0.027795076370239258,
+      "query_latency_us": 277.9507637023926,
+      "index_size_mb": 0.00177001953125,
+      "data_size_mb": 0.49591064453125,
+      "compression_ratio": 280.17241379310343,
+      "r2": 0.1995425855309596
+    },
+    {
+      "dataset": "cardio",
+      "n_rows": 10000,
+      "n_features": 12,
+      "build_time": 10.428207874298096,
+      "query_time": 0.02843952178955078,
+      "query_latency_us": 284.3952178955078,
+      "index_size_mb": 0.0017547607421875,
+      "data_size_mb": 0.9918212890625,
+      "compression_ratio": 565.2173913043479,
+      "r2": 0.36070985259502847
+    },
+    {
+      "dataset": "cardio",
+      "n_rows": 20000,
+      "n_features": 12,
+      "build_time": 20.231047868728638,
+      "query_time": 0.025586366653442383,
+      "query_latency_us": 255.86366653442386,
+      "index_size_mb": 0.0017547607421875,
+      "data_size_mb": 1.983642578125,
+      "compression_ratio": 1130.4347826086957,
+      "r2": 0.34566589708719553
+    },
+    {
+      "dataset": "cardio",
+      "n_rows": 50000,
+      "n_features": 12,
+      "build_time": 50.71458411216736,
+      "query_time": 0.024360179901123047,
+      "query_latency_us": 243.60179901123047,
+      "index_size_mb": 0.0017547607421875,
+      "data_size_mb": 4.9591064453125,
+      "compression_ratio": 2826.086956521739,
+      "r2": 0.4548104092570265
+    }
+  ],
+  "exp4_tradeoffs": [
+    {
+      "dataset": "adult",
+      "budget": 10,
+      "n_features": 1,
+      "n_bins_used": 10,
+      "r2": 0.34210272409328324,
+      "mae": 0.0336379193579543,
+      "build_time": 2.440316677093506,
+      "budget_utilization": 1.0
+    },
+    {
+      "dataset": "adult",
+      "budget": 25,
+      "n_features": 3,
+      "n_bins_used": 25,
+      "r2": 0.35990044450652353,
+      "mae": 0.031298685857390506,
+      "build_time": 2.52569317817688,
+      "budget_utilization": 1.0
+    },
+    {
+      "dataset": "adult",
+      "budget": 50,
+      "n_features": 6,
+      "n_bins_used": 46,
+      "r2": 0.8426733136770314,
+      "mae": 0.009919451248996427,
+      "build_time": 2.5395028591156006,
+      "budget_utilization": 0.92
+    },
+    {
+      "dataset": "adult",
+      "budget": 100,
+      "n_features": 6,
+      "n_bins_used": 65,
+      "r2": 0.9038453887914453,
+      "mae": 0.007498950329250483,
+      "build_time": 2.448786497116089,
+      "budget_utilization": 0.65
+    },
+    {
+      "dataset": "adult",
+      "budget": 200,
+      "n_features": 6,
+      "n_bins_used": 103,
+      "r2": 0.9581929908502254,
+      "mae": 0.0029647450220530824,
+      "build_time": 2.7078497409820557,
+      "budget_utilization": 0.515
+    },
+    {
+      "dataset": "cardio",
+      "budget": 10,
+      "n_features": 4,
+      "n_bins_used": 10,
+      "r2": 0.35784243420342626,
+      "mae": 0.018524984501436356,
+      "build_time": 3.6215131282806396,
+      "budget_utilization": 1.0
+    },
+    {
+      "dataset": "cardio",
+      "budget": 25,
+      "n_features": 5,
+      "n_bins_used": 25,
+      "r2": 0.4013058740442834,
+      "mae": 0.017334891024073897,
+      "build_time": 3.5943217277526855,
+      "budget_utilization": 1.0
+    },
+    {
+      "dataset": "cardio",
+      "budget": 50,
+      "n_features": 12,
+      "n_bins_used": 41,
+      "r2": 0.6631853973880858,
+      "mae": 0.012637874394894723,
+      "build_time": 3.527743101119995,
+      "budget_utilization": 0.82
+    },
+    {
+      "dataset": "cardio",
+      "budget": 100,
+      "n_features": 12,
+      "n_bins_used": 66,
+      "r2": 0.7258093388941749,
+      "mae": 0.011035658008798034,
+      "build_time": 3.5357794761657715,
+      "budget_utilization": 0.66
+    },
+    {
+      "dataset": "cardio",
+      "budget": 200,
+      "n_features": 12,
+      "n_bins_used": 107,
+      "r2": 0.8470379782033476,
+      "mae": 0.011489587587977168,
+      "build_time": 3.7699615955352783,
+      "budget_utilization": 0.535
+    },
+    {
+      "dataset": "flight-price",
+      "budget": 10,
+      "n_features": 1,
+      "n_bins_used": 10,
+      "r2": 0.3558500934514927,
+      "mae": 0.036333803775909494,
+      "build_time": 2.531254768371582,
+      "budget_utilization": 1.0
+    },
+    {
+      "dataset": "flight-price",
+      "budget": 25,
+      "n_features": 2,
+      "n_bins_used": 24,
+      "r2": 0.38100134223180415,
+      "mae": 0.0328897910479939,
+      "build_time": 2.5940821170806885,
+      "budget_utilization": 0.96
+    },
+    {
+      "dataset": "flight-price",
+      "budget": 50,
+      "n_features": 3,
+      "n_bins_used": 37,
+      "r2": 0.8863623386397599,
+      "mae": 0.0069691991354694505,
+      "build_time": 2.540778875350952,
+      "budget_utilization": 0.74
+    },
+    {
+      "dataset": "flight-price",
+      "budget": 100,
+      "n_features": 3,
+      "n_bins_used": 54,
+      "r2": 0.9467170663318597,
+      "mae": 0.00479046957224091,
+      "build_time": 2.5391476154327393,
+      "budget_utilization": 0.54
+    },
+    {
+      "dataset": "flight-price",
+      "budget": 200,
+      "n_features": 3,
+      "n_bins_used": 88,
+      "r2": 0.9309655991275738,
+      "mae": 0.00465434920098166,
+      "build_time": 2.6014697551727295,
+      "budget_utilization": 0.44
+    }
+  ],
+  "exp9_ablation": [
+    {
+      "variant": "Full InferQ",
+      "r2": 0.7778776524070913,
+      "mse": 0.001198646954484974,
+      "n_features": 6,
+      "n_bins": 46,
+      "build_time": 2.4260430335998535
+    },
+    {
+      "variant": "Fewer Trees (25)",
+      "r2": 0.9919578780201547,
+      "mse": 1.6585489024412977e-07,
+      "n_features": 6,
+      "n_bins": 28,
+      "build_time": 0.35201120376586914
+    },
+    {
+      "variant": "IG-only (no QDP)",
+      "r2": 0.9921248713244474,
+      "mse": 1.624109414673769e-07,
+      "n_features": 6,
+      "n_bins": 28,
+      "build_time": 0.45524072647094727
+    }
+  ]
+}
