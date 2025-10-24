@@ -1,3 +1,6 @@
+# !DISCLAIMER! 
+The entire codebase is *COMPLETELY* AI generated. The paper this is based on is also *COMPLETELY* AI generated. This project is part of an experiment to test the limitations of AI.
+
 # InferQ: Learning to Index Quality
 
 [![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
